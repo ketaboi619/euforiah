@@ -1,0 +1,34 @@
+.titulo{
+    position: absolute;
+    top: 15px;
+    left: 75px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.form-contenedor{
+    width: 300px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.form .titulo-form{
+    position: relative;
+    top: 10px;
+    font-size: 25px;
+    color: white;
+}
+
+.form input{
+    padding: 13px;
+}
+
+.form-caja label {
+    top: 10px;
+  }
+  

@@ -1,0 +1,24 @@
+.form-contenedor{
+    right: 5%;
+}
+
+.form-contenedor{
+    width: 350px;
+    
+}
+.contenido-main{
+    position: relative;
+    top: 60px;
+    display: block;
+    margin: 10px 30px;
+}
+.contenido-main video{
+    width: 400px;
+    margin: 50px 5px;
+}
+
+.contenido-main p{
+    font-size: 2rem;
+    margin: 25px auto; 
+    font-family: sans-serif;
+}

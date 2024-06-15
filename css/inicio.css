@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: brown;
+}
+
+header{
+    background-color: yellow;
+    width: 100%;
+    min-width: 150px;
+    height: 50px;
+    overflow: hidden;
+}
+.conter-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.posi-logo img{
+    padding-bottom: 75px;
+    width: 110px;
+    height: 120px;
+    padding-right: 30px;
+}
+
+.menu{
+    width: max-content;
+}
+.menu p{
+    display: flex;
+    width: fit-content;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.menu ul{
+    position: absolute;
+    right: 5px;
+    width: 100px;
+    background-color: rgb(211, 233, 19);
+    border: 1px black solid;
+    border-radius: 10px;
+    list-style: none;
+    text-align: left;
+    transition: all .3s;
+    opacity: 0;
+    visibility: hidden;
+}
+li a{
+    display: flex;
+    color: black;
+    padding: 10px 0 10px 20px;
+    font-size: 10px;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+
+.menu p:hover ~ ul, ul:hover{
+    opacity: 1;
+    visibility: visible;
+}
+
+a:hover{
+    background-color: rgba(49, 45, 45, 0.507);
+    color: white;
+    border-radius: 10px;
+}
